@@ -1,4 +1,5 @@
 # SQL-scripts
+These are scripts in T-SQL for Credit repayment schedule and end-of-day process
 ## As a SQL developer, some of the my scripts are shown below;
 
 ### Credit Schedule Amortization
