@@ -3,7 +3,7 @@ These are scripts in T-SQL for Credit repayment schedule and end-of-day process
 ## As a SQL developer, some of the my scripts are shown below;
 
 ### Credit Schedule Amortization
-The script below generate different forms of credit amortization ranging from; annuity, reducing balance etc
+The script below generates different forms of credit amortization ranging from; annuity, reducing balance etc
 ~~~
   USE [TheCoreBankingAzure] GO 
 /****** Object:  StoredProcedure [dbo].[sp_Banking_TempSchedule1]    Script Date: 11/17/2024 9:52:42 PM ******/
@@ -1627,7 +1627,8 @@ set
   @FirstPayDate = dateadd(mm, @mth, @paymentDate) end end end end --select * from @temp  
   end
 ~~~
-The script below drives the end-of-day process in a banking system
+
+## The script below drives the end-of-day process in a banking system
 ~~~
   USE [TheCoreBankingAzure] GO 
 /****** Object:  StoredProcedure [dbo].[spd_EndOfDay]    Script Date: 11/17/2024 9:56:56 PM ******/
